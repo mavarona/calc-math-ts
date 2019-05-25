@@ -1,0 +1,26 @@
+{
+    "name": "calc-math-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mavarona/calc-math-ts.git"
+    },
+    "keywords": [],
+    "author": "mavlmac",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mavarona/calc-math-ts/issues"
+    },
+    "homepage": "https://github.com/mavarona/calc-math-ts#readme",
+    "dependencies": {
+        "@types/node": "^12.0.2",
+        "calc-maths": "github:mavarona/calc-maths"
+    }
+}
